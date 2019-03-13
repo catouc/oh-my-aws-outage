@@ -21,5 +21,5 @@ setup(
     download_url=download_url,
     install_required=['boto3'],
     long_description=long_description,
-    long_description_content_type='text/markdown'
+    long_description_content_type='text/markdown',
 )

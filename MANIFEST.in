@@ -1,0 +1,8 @@
+# MANIFEST.in
+exclude .gitignore
+include setup.cfg
+include *.md
+include LICENSE
+prune .git
+recursive-exclude *.egg-info *
+recursive-include aws_outage/ *
