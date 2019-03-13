@@ -19,7 +19,7 @@ setup(
     license='MIT',
     url='https://github.com/Deichindianer/oh-my-aws-outage',
     download_url=download_url,
-    install_required=['boto3'],
+    install_requires=['boto3'],
     long_description=long_description,
     long_description_content_type='text/markdown',
 )
